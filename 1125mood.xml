@@ -1,0 +1,10 @@
+var accessToken =
+"lq8m8Bg+/PxKKrJrQB2rv39cKxJObgZp/PMwwTud1fEtIlKVg6a9NriWbgYBFKmBtNfVg7
+ANMuUst+7rS7NvGSokmnoN1YltZU+0KI8vbQJ/sCRFivUkLY9+gYIANrYY7IJ/XBjx5YCZM
+DQBv1D0bwdB04t89/1O/w1cDnyilFU=";
+
+var ngrokUrl = " http://597e115239b8.ngrok.io";
+
+var url="https://flagtech.github.io/FM611A/gs-aibot.js";
+var javascript = UrlFetchApp.fetch(url).getContentText();
+eval(javascript);

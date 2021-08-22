@@ -1,0 +1,11 @@
+var accessToken =
+"M8mvNcgUd0A7qO7F+yvAw5yCXDjLMI42a7d2vST13QXQpMcgnpD8bsfQbG9BMEEb
+MbzB40phubnsnaX05PTA05SP27skcDfZ0q3Hmla4M5BAExjqCjkZsiLnOjlKCYu1317Btam
+k2IfkJRlMTl34BQdB04t89/1O/w1cDnyilFU=";
+
+var keyWords = ["溫度", "幾度", "熱不熱"]
+
+var url="https://flagtech.github.io/FM611A/gs-linebot.js";
+var javascript = UrlFetchApp.fetch(url).getContentText();
+eval(javascript);
+
